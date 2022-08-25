@@ -4,6 +4,12 @@
         <element label="Date" max_length="40" name="date" read_only="true" type="glide_date"/>
         <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="OrderNumber" max_length="40" name="ordernumber" read_only="true" type="string" use_dynamic_default="true"/>
         <element label="Order Price" max_length="40" name="order_price" type="float"/>
+        <element choice="1" default="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" value="2"/>
+                <element inactive_on_update="false" label="Open" value="1"/>
+            </choice>
+        </element>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Produktliste" max_length="1024" name="u_glide_list_1" reference="x_879751_silivery_product" type="glide_list"/>
         <element attributes="base_start=true" default="x_879751_silivery_product" label="New Table Name" max_length="80" name="u_table_name_1" type="table_name"/>
         <index name="index">

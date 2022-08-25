@@ -36,5 +36,85 @@
             <sys_updated_on>2022-08-25 12:31:06</sys_updated_on>
             <value>-- New choice --</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ordered</label>
+            <language>en</language>
+            <name>x_879751_silivery_m2m_products_orders</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>mohcine</sys_created_by>
+            <sys_created_on>2022-08-25 12:47:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>249a0a152fed911092ec90bcf699b6b1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mohcine</sys_updated_by>
+            <sys_updated_on>2022-08-25 12:48:03</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>transmitted</label>
+            <language>en</language>
+            <name>x_879751_silivery_m2m_products_orders</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>mohcine</sys_created_by>
+            <sys_created_on>2022-08-25 12:48:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>71fa42552fed911092ec90bcf699b667</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mohcine</sys_updated_by>
+            <sys_updated_on>2022-08-25 12:49:02</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>transit</label>
+            <language>en</language>
+            <name>x_879751_silivery_m2m_products_orders</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>mohcine</sys_created_by>
+            <sys_created_on>2022-08-25 12:49:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df2b46552fed911092ec90bcf699b6b9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mohcine</sys_updated_by>
+            <sys_updated_on>2022-08-25 12:49:22</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delivered</label>
+            <language>en</language>
+            <name>x_879751_silivery_m2m_products_orders</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>mohcine</sys_created_by>
+            <sys_created_on>2022-08-25 12:49:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>294b8e152fed911092ec90bcf699b647</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>mohcine</sys_updated_by>
+            <sys_updated_on>2022-08-25 12:49:37</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
     </sys_choice>
 </record_update>

@@ -3,9 +3,13 @@
         <element default="1" label="anzahl" max_length="40" name="anzahl" type="integer"/>
         <element attributes="encode_utf8=false" label="Order" max_length="32" name="order" reference="x_879751_silivery_order" type="reference"/>
         <element attributes="encode_utf8=false" label="Product" max_length="32" name="product" reference="x_879751_silivery_product" type="reference"/>
-        <element choice="1" label="state" max_length="40" name="state" type="choice">
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Delivered" value="4"/>
+                <element inactive_on_update="false" label="ordered" value="1"/>
+                <element inactive_on_update="false" label="transit" value="3"/>
+                <element inactive_on_update="false" label="transmitted" value="2"/>
             </choice>
         </element>
         <index name="index">
