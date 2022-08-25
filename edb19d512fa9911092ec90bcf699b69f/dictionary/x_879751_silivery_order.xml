@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Order" max_length="40" name="x_879751_silivery_order" type="collection">
-        <element label="Amount" max_length="40" name="amount" type="integer"/>
-        <element label="Customer" max_length="32" name="customer" reference="x_879751_silivery_customer" type="reference"/>
-        <element label="Date" max_length="40" name="date" type="glide_date"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="OrderNumber" max_length="40" name="ordernumber" type="string" use_dynamic_default="true"/>
+        <element label="Customer" mandatory="true" max_length="32" name="customer" reference="x_879751_silivery_customer" type="reference"/>
+        <element label="Date" max_length="40" name="date" read_only="true" type="glide_date"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="OrderNumber" max_length="40" name="ordernumber" read_only="true" type="string" use_dynamic_default="true"/>
         <element label="Order Price" max_length="40" name="order_price" type="float"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Produktliste" max_length="1024" name="u_glide_list_1" reference="x_879751_silivery_product" type="glide_list"/>
+        <element attributes="base_start=true" default="x_879751_silivery_product" label="New Table Name" max_length="80" name="u_table_name_1" type="table_name"/>
+        <index name="index">
+            <element name="customer"/>
+        </index>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Amount" max_length="40" name="amount" type="integer"/>
         <element label="Product" max_length="32" name="product" reference="x_879751_silivery_product" type="reference"/>
+        <element label="SupplierRef" max_length="40" name="supplierref" reference="x_879751_silivery_supplier" type="reference"/>
+        <element label="SupplierOrderNumber" max_length="40" name="supplierordernumber" type="string"/>
+        <element label="SupplierOrderTrackingNumber" max_length="40" name="supplierordertrackingnumber" type="string"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice/>
         </element>
-        <element label="SupplierOrderNumber" max_length="40" name="supplierordernumber" type="string"/>
-        <element label="SupplierOrderTrackingNumber" max_length="40" name="supplierordertrackingnumber" type="string"/>
-        <element label="SupplierRef" max_length="40" name="supplierref" reference="x_879751_silivery_supplier" type="reference"/>
         <index name="index">
             <element name="product"/>
-        </index>
-        <index name="index2">
-            <element name="customer"/>
         </index>
     </element>
 </database>
