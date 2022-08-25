@@ -2,7 +2,7 @@
     <element label="Product" max_length="40" name="x_879751_silivery_product" type="collection">
         <element label="Deliverer" max_length="40" name="deliverer" type="string"/>
         <element label="Description" max_length="40" name="description" type="string"/>
-        <element label="ID" max_length="40" name="id" type="string"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="ID" max_length="40" name="id" type="string" use_dynamic_default="true"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element label="NumberAvailable" max_length="40" name="numberavailable" type="integer"/>
         <element label="Price" max_length="40" name="price" type="float"/>
