@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="live_feed=false" label="Order" max_length="40" name="x_879751_silivery_order" sizeclass="0" type="collection">
         <element label="Customer" mandatory="true" max_length="32" name="customer" reference="x_879751_silivery_customer" type="reference"/>
-        <element label="Date" max_length="40" name="date" read_only="true" type="glide_date"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Date" max_length="40" name="date" read_only="true" type="glide_date" use_dynamic_default="true"/>
         <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="OrderNumber" max_length="40" name="ordernumber" read_only="true" type="string" use_dynamic_default="true"/>
         <element label="Order Price" max_length="40" name="order_price" type="float"/>
         <element choice="1" default="1" label="State" max_length="40" name="state" type="choice">
