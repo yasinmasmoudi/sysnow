@@ -9,6 +9,5 @@
         <index name="index">
             <element name="customer"/>
         </index>
-        <element label="SupplierRef" max_length="40" name="supplierref" reference="x_879751_silivery_supplier" type="reference"/>
     </element>
 </database>
