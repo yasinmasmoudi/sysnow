@@ -9,17 +9,6 @@
         <index name="index">
             <element name="customer"/>
         </index>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Amount" max_length="40" name="amount" type="integer"/>
-        <element label="Product" max_length="32" name="product" reference="x_879751_silivery_product" type="reference"/>
         <element label="SupplierRef" max_length="40" name="supplierref" reference="x_879751_silivery_supplier" type="reference"/>
-        <element label="SupplierOrderNumber" max_length="40" name="supplierordernumber" type="string"/>
-        <element label="SupplierOrderTrackingNumber" max_length="40" name="supplierordertrackingnumber" type="string"/>
-        <element choice="1" label="State" max_length="40" name="state" type="choice">
-            <choice/>
-        </element>
-        <index name="index">
-            <element name="product"/>
-        </index>
     </element>
 </database>

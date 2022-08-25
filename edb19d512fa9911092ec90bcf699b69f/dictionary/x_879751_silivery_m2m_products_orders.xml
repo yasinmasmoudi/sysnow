@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Silivery M2m Products Orders" max_length="40" name="x_879751_silivery_m2m_products_orders" type="collection">
+        <element default="1" label="anzahl" max_length="40" name="anzahl" type="integer"/>
+        <element attributes="encode_utf8=false" label="Order" max_length="32" name="order" reference="x_879751_silivery_order" type="reference"/>
+        <element attributes="encode_utf8=false" label="Product" max_length="32" name="product" reference="x_879751_silivery_product" type="reference"/>
+        <element choice="1" label="state" max_length="40" name="state" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="product"/>
+        </index>
+        <index name="index2">
+            <element name="order"/>
+        </index>
+    </element>
+</database>
