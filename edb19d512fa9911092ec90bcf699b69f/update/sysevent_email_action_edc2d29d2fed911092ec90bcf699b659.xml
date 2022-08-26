@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
         <action_insert>true</action_insert>
-        <action_update>false</action_update>
+        <action_update>true</action_update>
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Rechnung" name="Rechnung">e76352dd2fed911092ec90bcf699b65e</category>
         <collection>x_879751_silivery_order</collection>
-        <condition table="x_879751_silivery_order">state=1^EQ<item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+        <condition table="x_879751_silivery_order">stateCHANGESTO2^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -37,21 +37,21 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html/>
+        <message_html><![CDATA[<p>HALOOOOOOOOOOOOOOOOOOOOOO</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Rechnung_verand</name>
+        <name>Rechnung_Versand</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields/>
+        <recipient_fields>customer.email</recipient_fields>
         <recipient_groups/>
-        <recipient_users/>
+        <recipient_users>a96029512f2d911092ec90bcf699b680,a8f98bb0eb32010045e1a5115206fe3a</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject/>
+        <subject>Test</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>mohcine</sys_created_by>
@@ -59,15 +59,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>edc2d29d2fed911092ec90bcf699b659</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Rechnung_verand</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Rechnung_Versand</sys_name>
         <sys_overrides/>
         <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
         <sys_update_name>sysevent_email_action_edc2d29d2fed911092ec90bcf699b659</sys_update_name>
-        <sys_updated_by>mohcine</sys_updated_by>
-        <sys_updated_on>2022-08-25 13:32:28</sys_updated_on>
+        <sys_updated_by>pascal</sys_updated_by>
+        <sys_updated_on>2022-08-26 07:12:39</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

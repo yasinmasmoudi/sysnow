@@ -10,8 +10,6 @@
                 <element inactive_on_update="false" label="Open" value="1"/>
             </choice>
         </element>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Produktliste" max_length="1024" name="u_glide_list_1" reference="x_879751_silivery_product" type="glide_list"/>
-        <element attributes="base_start=true" default="x_879751_silivery_product" label="New Table Name" max_length="80" name="u_table_name_1" type="table_name"/>
         <index name="index">
             <element name="customer"/>
         </index>

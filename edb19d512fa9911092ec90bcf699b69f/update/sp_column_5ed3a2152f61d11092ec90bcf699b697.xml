@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">5ad3a2152f61d11092ec90bcf699b695</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-25 14:36:40</sys_created_on>
+        <sys_id>5ed3a2152f61d11092ec90bcf699b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
+        <sys_update_name>sp_column_5ed3a2152f61d11092ec90bcf699b697</sys_update_name>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-25 14:36:40</sys_updated_on>
+    </sp_column>
+</record_update>

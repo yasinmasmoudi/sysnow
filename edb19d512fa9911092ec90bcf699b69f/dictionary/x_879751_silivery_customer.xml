@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Customer" max_length="40" name="x_879751_silivery_customer" sizeclass="0" type="collection">
-        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="C_Number" max_length="40" name="c_number" type="string" use_dynamic_default="true"/>
-        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" reference="sys_user" type="reference" use_dynamic_default="true"/>
-        <index name="index">
-            <element name="user"/>
-        </index>
+        <element choice="1" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="C_Number" max_length="40" name="c_number" read_only="true" type="string" use_dynamic_default="true">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="email"/>
+        <element choice="1" default="1" label="Land" max_length="40" name="land" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Belgien" value="4"/>
+                <element inactive_on_update="false" label="Deutschland" value="1"/>
+                <element inactive_on_update="false" label="Niederlande" value="5"/>
+                <element inactive_on_update="false" label="Österreich" value="3"/>
+                <element inactive_on_update="false" label="Schweiz" value="2"/>
+            </choice>
+        </element>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="PLZ" max_length="40" name="plz" type="integer"/>
+        <element label="Stadt" max_length="40" name="stadt" type="string"/>
+        <element label="Straße, Hausnummer" max_length="40" name="stra_e_hausnummer" type="string"/>
+        <element label="Telefonnummer" max_length="40" name="telefonnummer" type="string"/>
     </element>
 </database>

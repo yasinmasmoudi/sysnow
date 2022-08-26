@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>3</order>
+        <size>1</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">bd261a912f21d11092ec90bcf699b690</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-25 14:06:05</sys_created_on>
+        <sys_id>02dcde592f21d11092ec90bcf699b6bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
+        <sys_update_name>sp_column_02dcde592f21d11092ec90bcf699b6bd</sys_update_name>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-25 14:06:05</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>sp_column_02dcde592f21d11092ec90bcf699b6bd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>3</order><size>1</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">bd261a912f21d11092ec90bcf699b690</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>othmane</sys_created_by><sys_created_on>2022-08-25 14:06:05</sys_created_on><sys_id>02dcde592f21d11092ec90bcf699b6bd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>3</sys_name><sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package><sys_policy/><sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope><sys_update_name>sp_column_02dcde592f21d11092ec90bcf699b6bd</sys_update_name><sys_updated_by>othmane</sys_updated_by><sys_updated_on>2022-08-25 14:06:05</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>2052210701</payload_hash>
+        <record_name>3</record_name>
+        <reverted_from/>
+        <source>df7321552f2d911092ec90bcf699b630</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-25 14:06:05</sys_created_on>
+        <sys_id>cadcde592f21d11092ec90bcf699b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d5530a5b0000001</sys_recorded_at>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-25 14:06:05</sys_updated_on>
+        <type>Column</type>
+        <update_guid>06dcde595d21d11096349daab36fe3be</update_guid>
+        <update_guid_history>06dcde595d21d11096349daab36fe3be:2052210701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="3">706e961d2f21d11092ec90bcf699b665</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-25 14:12:49</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>0c8bd59f53844aa88105784a2ab68b10</sys_id>
+        <sys_metadata>02dcde592f21d11092ec90bcf699b6bd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
+        <sys_scope_delete display_value="">95fa109e3d55438a9650640c8181b7e4</sys_scope_delete>
+        <sys_update_name>sp_column_02dcde592f21d11092ec90bcf699b6bd</sys_update_name>
+        <sys_update_version display_value="sp_column_02dcde592f21d11092ec90bcf699b6bd">cadcde592f21d11092ec90bcf699b6be</sys_update_version>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-25 14:12:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

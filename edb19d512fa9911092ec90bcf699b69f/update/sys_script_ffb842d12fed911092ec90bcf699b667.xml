@@ -17,7 +17,7 @@
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
-        <message><![CDATA[<p><br /></p>]]></message>
+        <message/>
         <name>CalcPrice</name>
         <order>100</order>
         <priority>100</priority>
@@ -34,13 +34,21 @@ m2m.addQuery("order", current.getValue("order"));
 m2m.query();
 
 var total = 0;
-
+var finished = true;
+	
 while (m2m.next()){
 total = total + m2m.anzahl * m2m.product.price;
+if (m2m.state != 4){
+finished = false;
+}
 }
 
 var order = new GlideRecord("x_879751_silivery_order");
 if(order.get(current.order)){
+if ( finished ){
+order.setValue("state",2);
+order.update();
+}
 order.setValue("order_price",total);
 order.update();
 }
@@ -51,7 +59,7 @@ order.update();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ffb842d12fed911092ec90bcf699b667</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>CalcPrice</sys_name>
         <sys_overrides/>
         <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
@@ -59,7 +67,7 @@ order.update();
         <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
         <sys_update_name>sys_script_ffb842d12fed911092ec90bcf699b667</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-25 13:39:16</sys_updated_on>
+        <sys_updated_on>2022-08-25 14:10:02</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
