@@ -74,6 +74,15 @@
 		
 	}
 	
+
+	var cur = new GlideRecord('x_879751_silivery_order');
+
+	cur.get(current.sys_id);
+
+	cur.state = 1;
+
+	cur.update();
+	
 	gs.addInfoMessage("Order successfully saved!");
 
 
@@ -89,7 +98,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d1f30a992fad911092ec90bcf699b699</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Send Order</sys_name>
         <sys_overrides/>
         <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
@@ -97,7 +106,7 @@
         <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
         <sys_update_name>sys_ui_action_d1f30a992fad911092ec90bcf699b699</sys_update_name>
         <sys_updated_by>marzel</sys_updated_by>
-        <sys_updated_on>2022-08-26 08:30:02</sys_updated_on>
+        <sys_updated_on>2022-08-26 10:17:46</sys_updated_on>
         <table>x_879751_silivery_order</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
