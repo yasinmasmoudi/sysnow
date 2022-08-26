@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>order_m2m</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template, /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action, /* Optional GlideRecord */ event) {
+
+	// Add your code here
+	//template.print(current.getUniqueValue());
+	template.print("<h2>Ihre Bestellung bei uns<h2><br>");
+	template.print("<p>Vielen Dank für Ihre Bestellung<p>");
+
+		var order_product= new GlideRecord("x_879751_silivery_m2m_products_orders");
+	order_product.addQuery("order",current.getUniqueValue());
+	order_product.query();
+
+	while(order_product.next()){
+		var order_price = order_product.order.order_price;
+		var product = order_product.product;
+		
+		template.print(order_product.anzahl + " | " + order_product.product.name + " | " + order_product.product.price + "€<br>");
+	}
+	template.print("-----------------------------------");
+
+template.print("<br>"+"Summe Gesamtpreis: &nbsp;"+ order_price + "€<br><br><a href=\"https://dev92656.service-now.com/sp6/?id=1\">" + "Ihre Bestellung nachverfolgen" + "<a>");
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>mohcine</sys_created_by>
+        <sys_created_on>2022-08-26 08:25:07</sys_created_on>
+        <sys_id>a61852a12f61151092ec90bcf699b694</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>order_m2m</sys_name>
+        <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
+        <sys_update_name>sys_script_email_a61852a12f61151092ec90bcf699b694</sys_update_name>
+        <sys_updated_by>mohcine</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:56:07</sys_updated_on>
+    </sys_script_email>
+</record_update>

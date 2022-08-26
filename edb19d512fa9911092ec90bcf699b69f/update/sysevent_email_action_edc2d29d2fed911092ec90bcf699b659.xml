@@ -37,7 +37,7 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>HALOOOOOOOOOOOOOOOOOOOOOO</p>]]></message_html>
+        <message_html><![CDATA[<p>${mail_script:order_m2m}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Rechnung_Versand</name>
@@ -51,7 +51,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Test</subject>
+        <subject>Rechnungsstellung</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>mohcine</sys_created_by>
@@ -59,15 +59,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>edc2d29d2fed911092ec90bcf699b659</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Rechnung_Versand</sys_name>
         <sys_overrides/>
         <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
         <sys_update_name>sysevent_email_action_edc2d29d2fed911092ec90bcf699b659</sys_update_name>
-        <sys_updated_by>pascal</sys_updated_by>
-        <sys_updated_on>2022-08-26 07:12:39</sys_updated_on>
+        <sys_updated_by>mohcine</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:56:49</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
