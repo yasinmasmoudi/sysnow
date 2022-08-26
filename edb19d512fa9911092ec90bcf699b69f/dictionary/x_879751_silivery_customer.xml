@@ -22,5 +22,9 @@
         <element label="Stadt" max_length="40" name="stadt" type="string"/>
         <element label="Straße, Hausnummer" max_length="40" name="stra_e_hausnummer" type="string"/>
         <element label="Telefonnummer" max_length="40" name="telefonnummer" type="string"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" max_length="32" name="user" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
     </element>
 </database>

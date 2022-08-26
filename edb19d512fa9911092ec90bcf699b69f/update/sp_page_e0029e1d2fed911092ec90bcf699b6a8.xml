@@ -4,6 +4,7 @@
         <css>.container{
  padding:0px;
   margin:0px;
+  width:100%;
 }</css>
         <draft>false</draft>
         <dynamic_title_structure/>
@@ -18,14 +19,14 @@
         <sys_created_by>othmane</sys_created_by>
         <sys_created_on>2022-08-25 13:19:13</sys_created_on>
         <sys_id>e0029e1d2fed911092ec90bcf699b6a8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>1</sys_name>
         <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
         <sys_policy/>
         <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
         <sys_update_name>sp_page_e0029e1d2fed911092ec90bcf699b6a8</sys_update_name>
-        <sys_updated_by>othmane</sys_updated_by>
-        <sys_updated_on>2022-08-25 14:40:32</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-26 08:04:45</sys_updated_on>
         <title>Home Page</title>
         <use_seo_script>false</use_seo_script>
     </sp_page>

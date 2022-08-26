@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>input[type=text], select {&#13;
+  width: 100%;&#13;
+  padding: 12px 20px;&#13;
+  margin: 8px 0;&#13;
+  display: inline-block;&#13;
+  border: 1px solid #ccc;&#13;
+  border-radius: 4px;&#13;
+  box-sizing: border-box;&#13;
+}&#13;
+&#13;
+input[type=submit] {&#13;
+  width: 100%;&#13;
+  background-color: #4CAF50;&#13;
+  color: white;&#13;
+  padding: 14px 20px;&#13;
+  margin: 8px 0;&#13;
+  border: none;&#13;
+  border-radius: 4px;&#13;
+  cursor: pointer;&#13;
+}&#13;
+&#13;
+input[type=submit]:hover {&#13;
+  background-color: #45a049;&#13;
+}&#13;
+&#13;
+div {&#13;
+  border-radius: 5px;&#13;
+  background-color: #f2f2f2;&#13;
+  padding: 20px;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>silivery_form</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Silivery_form</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-26 07:55:25</sys_created_on>
+        <sys_id>16911a692f21151092ec90bcf699b66a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Silivery_form</sys_name>
+        <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
+        <sys_update_name>sp_widget_16911a692f21151092ec90bcf699b66a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-26 08:30:49</sys_updated_on>
+        <template><![CDATA[<div>
+  
+<form action="Form">
+  
+  <label for="name"> <b> Customer_Name: </b></label>
+  <input type="text" id="name"><br>
+  
+  <label for="o_number"> <b> Order_Number: </b></label>
+  <input type="text" id="o_number">
+  
+  <input type="button" value="Submit"/>
+  
+</form>
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>
