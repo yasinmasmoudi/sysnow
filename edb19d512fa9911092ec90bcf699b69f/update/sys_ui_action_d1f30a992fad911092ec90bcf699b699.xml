@@ -34,16 +34,17 @@
 
 		var allorderpositions = new GlideRecord('x_879751_silivery_m2m_products_orders');
 	allorderpositions.addQuery("order", current.sys_id);
-	//weekly.addAggregate("SUM","balance");
 	allorderpositions.query();
 	
-
+	//Für jedes der Elemente 
 	while(allorderpositions.next()){
+		//Hole dieses entschisprechende Produkt
 		var thisproduct = new GlideRecord('x_879751_silivery_product');
-		if(thisproduct.get(allorderpositions.product)){	
+		if(thisproduct.get(allorderpositions.product)){	//Nur wenn es da ist
 		}
 		
-		if(allorderpositions.anzahl  <= thisproduct.numberavailable){
+		//Wenn es genau so viele oder mehr Produkte auf Lager gibt
+		if((allorderpositions.anzahl  <= thisproduct.numberavailable) && (allorderpositions.state != 4)){
 			thisproduct.numberavailable = thisproduct.numberavailable-allorderpositions.anzahl;
 			
 			allorderpositions.state = 4;
@@ -51,8 +52,30 @@
 			allorderpositions.update();
 			thisproduct.update();
 		}
+		else if((thisproduct.numberavailable > 0)  && (allorderpositions.state != 4)){ //Wenn mindestens eines im Lager ist
+			var anzahldelivered = thisproduct.numberavailable; //Anzahl was vorhanden ist
+			allorderpositions.anzahl = allorderpositions.anzahl - anzahldelivered; //DIe noch geordert werden müssen
+			allorderpositions.update();
+			//Das Delivered feld erstellen
+			var deliveredproduct = new GlideRecord('x_879751_silivery_m2m_products_orders');
+			deliveredproduct.initialize();
+			deliveredproduct.anzahl = anzahldelivered;
+			deliveredproduct.state = 4;
+			deliveredproduct.product = allorderpositions.product;
+			deliveredproduct.order = allorderpositions.order;
+			
+			deliveredproduct.insert();
+			
+			//Produktanzahl setzen
+			thisproduct.numberavailable = 0;
+			thisproduct.update();
+		}
+		
 		
 	}
+	
+	gs.addInfoMessage("Order successfully saved!");
+
 
 
 })(current, previous);]]></script>
@@ -66,7 +89,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d1f30a992fad911092ec90bcf699b699</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Send Order</sys_name>
         <sys_overrides/>
         <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
@@ -74,7 +97,7 @@
         <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
         <sys_update_name>sys_ui_action_d1f30a992fad911092ec90bcf699b699</sys_update_name>
         <sys_updated_by>marzel</sys_updated_by>
-        <sys_updated_on>2022-08-25 13:28:01</sys_updated_on>
+        <sys_updated_on>2022-08-26 08:30:02</sys_updated_on>
         <table>x_879751_silivery_order</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
