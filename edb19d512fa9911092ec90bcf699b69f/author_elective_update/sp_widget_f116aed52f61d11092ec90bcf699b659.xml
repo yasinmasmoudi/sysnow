@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Labels</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-25 14:48:35</sys_created_on>
+        <sys_id>f116aed52f61d11092ec90bcf699b659</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Labels</sys_name>
+        <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
+        <sys_update_name>sp_widget_f116aed52f61d11092ec90bcf699b659</sys_update_name>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-26 07:51:51</sys_updated_on>
+        <template><![CDATA[<div>
+  
+<form action="Form">
+  
+  <img ng-src="si.jpg" width="1536"/>
+  
+  <label for="name"> <b> Customer_Name: </b></label>
+  <input type="text" id="name"><br>
+  
+  <label for="o_number"> <b> Order_Number: </b></label>
+  <input type="text" id="o_number">
+  
+  <input type="button" value="Search"/>
+  
+</form>
+  
+</div>]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>sp_widget_f116aed52f61d11092ec90bcf699b659</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]&gt;&lt;/link&gt;&lt;name&gt;Labels&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;othmane&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-25 14:48:35&lt;/sys_created_on&gt;&lt;sys_id&gt;f116aed52f61d11092ec90bcf699b659&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Labels&lt;/sys_name&gt;&lt;sys_package display_value="Silivery" source="x_879751_silivery"&gt;edb19d512fa9911092ec90bcf699b69f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Silivery"&gt;edb19d512fa9911092ec90bcf699b69f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_f116aed52f61d11092ec90bcf699b659&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;othmane&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-26 07:51:51&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  
+&lt;form action="Form"&gt;
+  
+  &lt;img ng-src="si.jpg" width="1536"/&gt;
+  
+  &lt;label for="name"&gt; &lt;b&gt; Customer_Name: &lt;/b&gt;&lt;/label&gt;
+  &lt;input type="text" id="name"&gt;&lt;br&gt;
+  
+  &lt;label for="o_number"&gt; &lt;b&gt; Order_Number: &lt;/b&gt;&lt;/label&gt;
+  &lt;input type="text" id="o_number"&gt;
+  
+  &lt;input type="button" value="Search"/&gt;
+  
+&lt;/form&gt;
+  
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-284760395</payload_hash>
+        <record_name>Labels</record_name>
+        <reverted_from/>
+        <source>04611a1d2fed911092ec90bcf699b63c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-26 07:51:51</sys_created_on>
+        <sys_id>4ec01ee52f21151092ec90bcf699b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d922c81b0000001</sys_recorded_at>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-26 07:51:51</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>06c01ee552211510ba6ab9bd48d32a76</update_guid>
+        <update_guid_history>06c01ee552211510ba6ab9bd48d32a76:-284760395,537012a53321151027d86a97484d1669:-1016507649,3ffd82e143211510614deb91bfc249c4:-977217169,4cdd02e1b42115101f556f3c31a9b321:-764925525,19fc42a118211510012f573d8ed6a108:-1769658617,e8c9ead90961d1108d338cfe66ddeb52:-36207974,fc78e699ca61d110a6590b52891aa559:440257671,62f622590a61d110a450a84665a2dadc:728275876,e7b6aa190d61d110ef4f06e071b6b4c6:1055229090,f8962a190b61d11004c947ff05e41d8d:1684904125</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Labels">562e9a692f61151092ec90bcf699b68a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-26 08:50:19</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>3a12f94709af4f2083bd4e4669db8684</sys_id>
+        <sys_metadata>f116aed52f61d11092ec90bcf699b659</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Labels</sys_name>
+        <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
+        <sys_scope_delete display_value="">95fa109e3d55438a9650640c8181b7e4</sys_scope_delete>
+        <sys_update_name>sp_widget_f116aed52f61d11092ec90bcf699b659</sys_update_name>
+        <sys_update_version display_value="sp_widget_f116aed52f61d11092ec90bcf699b659">4ec01ee52f21151092ec90bcf699b676</sys_update_version>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-26 08:50:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

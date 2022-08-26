@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
+    <m2m_sp_portal_search_source action="DELETE">
+        <order>100</order>
+        <sp_portal display_value="Silivery">7781da1d2fed911092ec90bcf699b6f8</sp_portal>
+        <sp_search_source display_value="Banner Content">1b56c8c0b3302300e64be12b86a8dc68</sp_search_source>
+        <sys_class_name>m2m_sp_portal_search_source</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-26 09:23:02</sys_created_on>
+        <sys_id>25a56aa12fa1151092ec90bcf699b665</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Silivery.Banner Content</sys_name>
+        <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
+        <sys_update_name>m2m_sp_portal_search_source_25a56aa12fa1151092ec90bcf699b665</sys_update_name>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:23:02</sys_updated_on>
+    </m2m_sp_portal_search_source>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>m2m_sp_portal_search_source_25a56aa12fa1151092ec90bcf699b665</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source"><m2m_sp_portal_search_source action="INSERT_OR_UPDATE"><order>100</order><sp_portal display_value="Silivery">7781da1d2fed911092ec90bcf699b6f8</sp_portal><sp_search_source display_value="Banner Content">1b56c8c0b3302300e64be12b86a8dc68</sp_search_source><sys_class_name>m2m_sp_portal_search_source</sys_class_name><sys_created_by>othmane</sys_created_by><sys_created_on>2022-08-26 09:23:02</sys_created_on><sys_id>25a56aa12fa1151092ec90bcf699b665</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Silivery.Banner Content</sys_name><sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package><sys_policy/><sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope><sys_update_name>m2m_sp_portal_search_source_25a56aa12fa1151092ec90bcf699b665</sys_update_name><sys_updated_by>othmane</sys_updated_by><sys_updated_on>2022-08-26 09:23:02</sys_updated_on></m2m_sp_portal_search_source></record_update>]]></payload>
+        <payload_hash>-607406804</payload_hash>
+        <record_name>Silivery.Banner Content</record_name>
+        <reverted_from/>
+        <source>04611a1d2fed911092ec90bcf699b63c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-26 09:23:02</sys_created_on>
+        <sys_id>39a5a2e12fa1151092ec90bcf699b6af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d97643780000001</sys_recorded_at>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:23:02</sys_updated_on>
+        <type>Search Source</type>
+        <update_guid>61a5a2e153a11510b57278a8508639af</update_guid>
+        <update_guid_history>61a5a2e153a11510b57278a8508639af:-607406804</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Silivery.Banner Content">fbc6ea252fa1151092ec90bcf699b61d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-26 09:28:06</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_portal_search_source">m2m_sp_portal_search_source</sys_db_object>
+        <sys_id>0b0f24cef8ab44e081a780f1a64ba4f9</sys_id>
+        <sys_metadata>25a56aa12fa1151092ec90bcf699b665</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Silivery.Banner Content</sys_name>
+        <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
+        <sys_scope_delete display_value="">95fa109e3d55438a9650640c8181b7e4</sys_scope_delete>
+        <sys_update_name>m2m_sp_portal_search_source_25a56aa12fa1151092ec90bcf699b665</sys_update_name>
+        <sys_update_version display_value="m2m_sp_portal_search_source_25a56aa12fa1151092ec90bcf699b665">39a5a2e12fa1151092ec90bcf699b6af</sys_update_version>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:28:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">382a6e292fa1151092ec90bcf699b618</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Table Reference">1dbb29f147001200ba13a5554ee49014</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-26 09:43:08</sys_created_on>
+        <sys_id>9c4aae292fa1151092ec90bcf699b693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
+        <sys_update_name>sp_instance_table_9c4aae292fa1151092ec90bcf699b693</sys_update_name>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:43:08</sys_updated_on>
+        <table/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=9c4aae292fa1151092ec90bcf699b693"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>sp_instance_table_9c4aae292fa1151092ec90bcf699b693</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">382a6e292fa1151092ec90bcf699b618</sp_column><sp_page/><sp_widget display_value="Table Reference">1dbb29f147001200ba13a5554ee49014</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>othmane</sys_created_by><sys_created_on>2022-08-26 09:43:08</sys_created_on><sys_id>9c4aae292fa1151092ec90bcf699b693</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package><sys_policy/><sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope><sys_update_name>sp_instance_table_9c4aae292fa1151092ec90bcf699b693</sys_update_name><sys_updated_by>othmane</sys_updated_by><sys_updated_on>2022-08-26 09:43:08</sys_updated_on><table/><title/><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=9c4aae292fa1151092ec90bcf699b693"/></record_update>]]></payload>
+        <payload_hash>-839718349</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>04611a1d2fed911092ec90bcf699b63c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-26 09:43:09</sys_created_on>
+        <sys_id>1c4aae292fa1151092ec90bcf699b695</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d988abd50000001</sys_recorded_at>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:43:09</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>544aae2902a1151019835371109c8695</update_guid>
+        <update_guid_history>544aae2902a1151019835371109c8695:-839718349</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ef4aee292fa1151092ec90bcf699b680</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-26 09:43:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>1a10772949774db985ef1fc000c3ca61</sys_id>
+        <sys_metadata>9c4aae292fa1151092ec90bcf699b693</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
+        <sys_scope_delete display_value="">95fa109e3d55438a9650640c8181b7e4</sys_scope_delete>
+        <sys_update_name>sp_instance_table_9c4aae292fa1151092ec90bcf699b693</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_9c4aae292fa1151092ec90bcf699b693">1c4aae292fa1151092ec90bcf699b695</sys_update_version>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:43:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

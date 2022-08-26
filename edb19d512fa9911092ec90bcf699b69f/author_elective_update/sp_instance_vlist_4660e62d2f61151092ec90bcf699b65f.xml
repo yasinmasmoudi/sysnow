@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field>ordernumber</display_field>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">5df2dae92f21151092ec90bcf699b69c</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-26 09:00:07</sys_created_on>
+        <sys_id>4660e62d2f61151092ec90bcf699b65f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Your Order</sys_name>
+        <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
+        <sys_update_name>sp_instance_vlist_4660e62d2f61151092ec90bcf699b65f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:11:37</sys_updated_on>
+        <table>x_879751_silivery_order</table>
+        <title>Your Order</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "state",
+		"displayValue": "state"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=4660e62d2f61151092ec90bcf699b65f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</application>
+        <file_path/>
+        <instance_id>6a214869dba33f042f68c5970596194b</instance_id>
+        <instance_name>dev92656</instance_name>
+        <name>sp_instance_vlist_4660e62d2f61151092ec90bcf699b65f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;primary&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;ordernumber&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;maximum_entries&gt;5&lt;/maximum_entries&gt;&lt;order&gt;1&lt;/order&gt;&lt;order_by/&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;5df2dae92f21151092ec90bcf699b69c&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-26 09:00:07&lt;/sys_created_on&gt;&lt;sys_id&gt;4660e62d2f61151092ec90bcf699b65f&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Your Order&lt;/sys_name&gt;&lt;sys_package display_value="Silivery" source="x_879751_silivery"&gt;edb19d512fa9911092ec90bcf699b69f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Silivery"&gt;edb19d512fa9911092ec90bcf699b69f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_4660e62d2f61151092ec90bcf699b65f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-26 09:11:37&lt;/sys_updated_on&gt;&lt;table&gt;x_879751_silivery_order&lt;/table&gt;&lt;title&gt;Your Order&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "state",
+		"displayValue": "state"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4660e62d2f61151092ec90bcf699b65f"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1716936731</payload_hash>
+        <record_name>Your Order</record_name>
+        <reverted_from/>
+        <source>403e0ae12f21151092ec90bcf699b6c5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-26 09:11:37</sys_created_on>
+        <sys_id>9e032eed2f61151092ec90bcf699b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182d96bce0f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:11:37</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>96032eedca61151093e29ee0b54d10f3</update_guid>
+        <update_guid_history>96032eedca61151093e29ee0b54d10f3:-1716936731,dbc22aedbf61151092afcb59f1916d31:-955711738,62a0e62dc16115102f2d06ea23e4274a:-925958617,ce60e62d56611510ee56f9bff7deca60:1282513709</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Your Order">6a5c6ae92fa1151092ec90bcf699b652</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>othmane</sys_created_by>
+        <sys_created_on>2022-08-26 09:52:19</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>405e985547a3469caa2eb9972a946d10</sys_id>
+        <sys_metadata>4660e62d2f61151092ec90bcf699b65f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Your Order</sys_name>
+        <sys_package display_value="Silivery" source="x_879751_silivery">edb19d512fa9911092ec90bcf699b69f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Silivery">edb19d512fa9911092ec90bcf699b69f</sys_scope>
+        <sys_scope_delete display_value="">95fa109e3d55438a9650640c8181b7e4</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_4660e62d2f61151092ec90bcf699b65f</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_4660e62d2f61151092ec90bcf699b65f">9e032eed2f61151092ec90bcf699b6f3</sys_update_version>
+        <sys_updated_by>othmane</sys_updated_by>
+        <sys_updated_on>2022-08-26 09:52:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
